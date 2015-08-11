@@ -11,7 +11,6 @@ using Windows.UI.Xaml.Controls;
 using Windows.UI.Xaml.Controls.Primitives;
 using Windows.UI.Xaml.Media.Animation;
 
-
 namespace VirtualizationTest.Extensions
 {
   
@@ -20,8 +19,8 @@ namespace VirtualizationTest.Extensions
     /// </summary>
     public static class ScrollViewerExtensions
     {
-        private static readonly TimeSpan DefaultAnimatedScrollDuration = TimeSpan.FromSeconds(2);
-        private static readonly EasingFunctionBase DefaultEasingFunction = new PowerEase { EasingMode = EasingMode.EaseOut };
+        private static readonly TimeSpan DefaultAnimatedScrollDuration = TimeSpan.FromSeconds(0.4);
+        private static readonly EasingFunctionBase DefaultEasingFunction = new QuinticEase { EasingMode = EasingMode.EaseInOut };
 
         #region AnimatedScrollHandler
         /// <summary>

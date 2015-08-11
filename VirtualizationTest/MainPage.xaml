@@ -105,7 +105,7 @@
                     </ListView.Template>
                     <ListView.ItemsPanel>
                         <ItemsPanelTemplate>
-                            <ItemsStackPanel CacheLength="12.0" ItemsUpdatingScrollMode="KeepItemsInView" />
+                            <ItemsStackPanel CacheLength="8.0" ItemsUpdatingScrollMode="KeepItemsInView" />
                         </ItemsPanelTemplate>
                     </ListView.ItemsPanel>
                 </ListView>
